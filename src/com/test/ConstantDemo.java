@@ -29,6 +29,6 @@ public class ConstantDemo {
         System.out.println("------this is a break line------");
 
         //Null constant
-        System.out.println(null); // Null constant cannot be outputted directly.
+//        System.out.println(null); // Null constant cannot be outputted directly.
     }
 }
