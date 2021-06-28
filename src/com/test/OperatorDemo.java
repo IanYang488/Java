@@ -1,4 +1,5 @@
 package com.test;
+import java.util.Scanner;
 
 public class OperatorDemo {
 
@@ -59,7 +60,27 @@ public class OperatorDemo {
         int max = x > y ? x : y; // same as Math.max(x, y)]
         System.out.println("max: " + max);
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("One day: ");
+        int week_day = sc.nextInt();
+        if (week_day == 1) {
+            System.out.println("Today is Monday.");
+        } else if (week_day == 2) {
 
+            System.out.println("Today is Tuesday.");
+        } else if (week_day == 3) {
+            System.out.println("Today is Wednesday.");
+        } else if (week_day == 4) {
+            System.out.println("Today is Thursday.");
+        } else if (week_day == 5) {
+            System.out.println("Today is Friday, wryyyyyyy~");
+        } else if (week_day == 6) {
+            System.out.println("Today is Saturday, have fun. ");
+        } else if (week_day == 7) {
+            System.out.println("Today is Sunday, one week is over!");
+        } else {
+            System.out.println("Nothing happened.");
+        }
 
 
 
