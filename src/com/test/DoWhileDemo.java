@@ -5,7 +5,7 @@ public class DoWhileDemo {
         for (int i = 1; i <= 5; i++) {
             System.out.println("Hello, World!"); //Using for loo
         }
-        System.out.println("----------");
+
         int cnt = 1;
         do {System.out.println("Hello, World!");
             cnt++;

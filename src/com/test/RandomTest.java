@@ -4,12 +4,12 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RandomTest {
-    public static void main(String[] args) {
+
         Random r = new Random();
         int num = r.nextInt(100) + 1;
         while (true) {
             Scanner sc = new Scanner(System.in);
-            System.out.println("Type down the number: ");
+
             int guessNum = sc.nextInt();
 
             if (guessNum > num) {
