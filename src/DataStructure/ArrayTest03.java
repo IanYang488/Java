@@ -11,7 +11,11 @@ public class ArrayTest03 {
         System.out.println(arr[1]);
         System.out.println(arr[2]);
 
-        int[] arr2 = arr; // address of arr is assigned to arr2 as well as its values
+// <<<<<<< July_13
+//         int[] arr2 = arr;// address of arr is assigned to arr2 as well as its values
+// =======
+//         int[] arr2 = arr; // address of arr is assigned to arr2 as well as its values
+// >>>>>>> main
         arr2[0] = 111; // arr2[2] equals to arr[0]
         arr2[1] = 222;
         arr2[2] = 333;
