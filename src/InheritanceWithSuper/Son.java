@@ -1,4 +1,4 @@
-package InherenceWithSuper;
+package InheritanceWithSuper;
 
 public class Son extends Father {
     public int age = 20;

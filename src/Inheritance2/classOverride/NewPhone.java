@@ -1,4 +1,4 @@
-package Inherence2.classOverride;
+package Inheritance2.classOverride;
 
 public class NewPhone extends Phone {
     @Override  // when override a class,the  access capacity should not smaller than its Father class

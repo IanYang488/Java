@@ -1,4 +1,4 @@
-package Inherence2.classOverride;
+package Inheritance2.classOverride;
 
 public class PhoneDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Inherence2;
+package Inheritance2;
 
 public class Son extends Father {
     public int height = 188;

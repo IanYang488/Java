@@ -1,4 +1,4 @@
-package Inherence;
+package Inheritance;
 
 public class Father {
     public void show() {
