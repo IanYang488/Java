@@ -8,8 +8,11 @@ public class Student {
 //        name = n;
 //    }
 
+
     // this keyword is used to distinguish member variable from local variable
     // the variable without this is parameter
+
+
     public void setName(String name) {
 //        name = name;
         this.name = name;
