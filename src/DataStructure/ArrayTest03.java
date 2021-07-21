@@ -12,12 +12,6 @@ public class ArrayTest03 {
         System.out.println(arr[2]);
 
 
-
-
-
-// <<<<<<< July_13
-//         int[] arr2 = arr;// address of arr is assigned to arr2 as well as its values
-// =======
 //         int[] arr2 = arr; // address of arr is assigned to arr2 as well as its values
 // >>>>>>> main
 
