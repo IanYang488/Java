@@ -8,7 +8,7 @@ public class HashSetDemo {
         strings.add("Hello");
         strings.add("Java");
         //  It makes no guarantees as to the iteration order of the set;
-        for (String s : strings) {
+        for (String s : strings) { // this String s: strings is an enhanced for loop
             System.out.println(s);
         }
     }
