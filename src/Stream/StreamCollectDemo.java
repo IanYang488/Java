@@ -1,5 +1,6 @@
 package Stream;
 
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -45,4 +46,6 @@ public class StreamCollectDemo {
                 arrayStream.collect(Collectors.toMap(key -> key.split(",")[0],
                         value -> Integer.parseInt(value.split(", ")[1])));
     }
+
+
 }
